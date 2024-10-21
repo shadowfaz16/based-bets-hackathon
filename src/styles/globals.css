@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #283593; /* Background color matching your site */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1A237E; /* Thumb color matching your site */
+    border-radius: 6px;
+    border: 3px solid #283593; /* Creates padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3949AB; /* Darker shade on hover */
+}
+
+body {
+    font-family: 'Montserrat Variable', sans-serif;
+}
